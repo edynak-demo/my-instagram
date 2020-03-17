@@ -1,7 +1,7 @@
 !!! 5
 %html
 %head
-	%title Instagram Clone
+	%title Randygram
 	= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
 	= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'
 	= csrf_meta_tags
@@ -10,7 +10,7 @@
 %body
 	%nav.navbar.navbar-inverse
 		.container
-			.navbar-brand= link_to "Instagram Clone", root_path
+			.navbar-brand= link_to "Randygram", root_path
 		
 			- if user_signed_in?
 				%ul.nav.navbar-nav.navbar-left
